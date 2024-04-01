@@ -1,0 +1,98 @@
+body {
+    background-image: url(Renz1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px 1000px ; 
+    background-position: center;
+    background-color: #f3f3f3;
+    font-family: 'Poppins',sans-serif;
+}
+img{ 
+background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 500px;
+    background-position: center;
+}
+audio {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+}
+p{font-size: 130%;
+}
+
+div{
+background-color:white;
+padding:25px;
+}
+div{
+    background-color:white;
+    padding:50px;
+    }
+    h1 {
+        color:grey;
+      }
+      * {
+          margin: 0;
+          padding: 0;
+      }
+      style {
+        background-color:#AB784E;
+      }
+      
+      nav {
+          background-color: #333;
+          padding: 10px 0; 
+      }
+      
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+      }
+      
+      li {
+          display: inline; 
+          margin-right: 20px;
+      }
+      
+      a {
+          color: white;
+          text-decoration: none;
+          padding: 10px;
+      }
+      
+      a:hover {
+          background-color: #555;
+      }
+      nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 140px;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+    nav ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        position: relative;
+    }
+    nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        transition: 0.5s;
+    }
+    
